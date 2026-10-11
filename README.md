@@ -12,6 +12,17 @@ Pick a restaurant - or just describe what you want - and get restaurants with **
 
 Sidebar filters (all tabs): number of results, similarity pool, minimum rating, max cost, locations, cuisines, exclude same-chain branches.
 
+## Dataset
+
+The raw dataset (`zomato.csv`, ~574 MB) is too large for the repository.
+
+1. Download it from the [Releases page](https://github.com/prashantpankaj12-coder/DS-Zomato-Recommender/releases/tag/v1.0-data)
+   (direct link: `.../releases/download/v1.0-data/zomato.csv`).
+2. Unzip it and place `zomato.csv` in the project folder, next to the notebook.
+3. Run `zomato_recommendation.ipynb`.
+
+Note: the Streamlit app does **not** need the CSV. It uses the pre-built files in `artifacts/`.
+
 ## Files
 | File | Purpose |
 |---|---|
